@@ -15,24 +15,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="src/styles/components.css">
+
     <title>Portal HmpII</title>
 </head>
 <body class="font-yeseva">
+    <div id="myNav" class="overlay h-full absolute hidden bg-secondary w-full flex flex-col">
+        <a href="javascript:void(0)" class="closeBtn self-end mr-4 mt-4 text-white text-2xl"><span>&times;</span></a>
+
+        <div class="overlay__content flex flex-col text-primary text-center mx-auto gap-2 mt-4">
+            
+        </div>
+    </div>
+
     <header class="h-112px w-full bg-primary px-4">
         <div class="flex justify-between  h-112px max-w-[980px] mx-auto items-center">
             <h1 class="text-white text-[28px]"><span class="text-accet">HMP</span>II</h1>
-            <nav>
-                <div class="hidden md:block text-white">
-                    <ul class="flex gap-4 menu__list">
-                        <li>Item</li>
-                        <li>Item</li>
-                        <li>Item</li>
-                        <li>Item</li>
-                        <li>Item</li>
-                        <li>Item</li>
-                    </ul>
-                </div>
-                <button class="md:hidden"><i class="fa-solid fa-bars text-[28px]" style="color: #fff;"></i></button>
+
+            <div class="menuDesk hidden md:flex gap-4">
+                
+            </div>
+
+            <button class="md:hidden nav__button"><i class="fa-solid fa-bars text-[28px]" style="color: #fff;"></i></button>
             </nav>
         </div>
     </header>
