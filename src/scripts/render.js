@@ -34,6 +34,7 @@ export const menuOverlay = (arr) => {
 
     arr.forEach(item => {
         const menuItem = document.createElement('a')
+        menuItem.classList.add('font-normal', 'text-sm', 'font-work', 'hover:font-bold')        
         menuItem.id = item.id
         menuItem.href = item.link
         menuItem.innerText = item.name
@@ -44,7 +45,7 @@ export const menuOverlay = (arr) => {
 
     arr.forEach(item => {
         const menuItem = document.createElement('a')
-        menuItem.classList.add('text-white')
+        menuItem.classList.add('text-white', 'font-light', 'text-s', 'hover:text-accet', 'font-work')
         menuItem.id = item.id
         menuItem.href = item.link
         menuItem.innerText = item.name

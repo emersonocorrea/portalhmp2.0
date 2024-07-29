@@ -20,7 +20,8 @@ tailwind.config = {
         fontFamily: {
             'yeseva': ['Yeseva One', 'sans-serif'],
             'work': ['Work Sans', 'sans-serif'],
-        }
+        },
+        
       }
     }
   }
