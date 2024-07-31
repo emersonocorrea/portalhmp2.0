@@ -5,7 +5,9 @@ tailwind.config = {
           secondary: '#159EEC',
           accet: '#BFD2F8',
           primary: '#1F2B6C',
-          black: '#212124'
+          black: '#212124',
+          darkPrimary: '#004785',
+          sipat: '#335b41'
         },
         spacing: {
             '8px': '8px',

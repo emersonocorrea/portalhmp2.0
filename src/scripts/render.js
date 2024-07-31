@@ -45,11 +45,18 @@ export const menuOverlay = (arr) => {
 
     arr.forEach(item => {
         const menuItem = document.createElement('a')
-        menuItem.classList.add('text-white', 'font-light', 'text-s', 'hover:text-accet', 'font-work')
+        menuItem.classList.add('text-white', 'font-normal', 'uppercase', 'text-s', 'hover:text-accet', 'font-work', 'hover:border-b', 'hover:border-b-accet', 'hover:ease-in', 'duration-200')
         menuItem.id = item.id
         menuItem.href = item.link
         menuItem.innerText = item.name
 
         menuDesk.append(menuItem)
+    })
+}
+
+export const redirectSipat = () => {
+    const sipat = document.querySelector('.sipat')
+    sipat.addEventListener('click', () => {
+        window.location.replace('http://www.google.com')
     })
 }

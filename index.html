@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
 
     
-
+    <link rel="shortcut icon" href="src/assets/img/favicon.ico" type="image/x-icon">
     <title>Portal HmpII</title>
+
 </head>
 <body class="font-yeseva">
     <div id="myNav" class="overlay  absolute hidden bg-accet w-full flex flex-col">
@@ -29,20 +30,50 @@
         </div>
     </div>
 
-    <header class="h-112px w-full bg-primary px-4">
+    <header class="h-112px w-full bg-darkPrimary px-4">
         <div class="flex justify-between  h-112px max-w-[980px] mx-auto items-center">
-            <h1 class="text-white text-[28px]"><span class="text-accet">HMP</span>II</h1>
+            <img src="src/assets/img/logo.jpg" alt="logo" class="w-[100px] h-[100px] rounded-md ">
 
             <div class="menuDesk hidden md:flex gap-4">
                 
-            </div>
-
+            </div>            
+            
             <button class="md:hidden nav__button"><i class="fa-solid fa-bars text-[28px]" style="color: #fff;"></i></button>
             </nav>
+            
         </div>
-    </header>
-    <div class="banner w-full bg-[url('.././src/assets/img/doctor.png')] bg-cover h-[291px]  md:bg-[url('.././src/assets/img/doctorLarge.png')] lg:h-[550px]  ">        
         
+    </header>    
+
+    <div class="banner w-full  bg-[url('.././src/assets/img/doctor.png')] bg-cover h-[291px]  sm:bg-[url('.././src/assets/img/doctorLarge.png')] lg:h-[550px] text-center">
+                
+        <div class="mx-auto max-w-[980px]">
+            <div class="sipat cursor-pointer max-w-[65%]  bg-opacity-40 max-h-[50%] flex flex-col  rounded-r-md p-2 font-work md:place-items-start gap-2 md:ml-4 ">
+                <h2 class="text-sipat font-extrabold uppercase text-3xl md:text-5xl mt-2 lg:mt-6 lg:text-8xl">sipat-2024</h2>
+                <p class="text-sipat font-semibold uppercase text-xs md:text-lg text-center md:text-left lg:text-3xl">semana internacional de <br> prevenção de acidentes</p>
+                <div class="flex flex-row gap-4 justify-center mt-2 text-white uppercase font-semibold">
+                    <span class="bg-sipat px-2 text-xs md:text-sm lg:text-2xl">de 21 a 23/08</span>
+                    <span class="bg-sipat px-2 text-xs md:text-sm lg:text-2xl">09:15 as 16:00</span>
+                </div>
+                <p class="text-sipat uppercase font-bold mt-2 md:text-2xl lg:text-4xl">no auditório</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main max-w-[980px] mx-auto mt-48px flex flex-col gap-48px">
+        <div class="text-center flex flex-col gap-2 w-80 lg:w-[658px] mx-auto">
+            <p class="text-secondary font-work font-bold lg:text-xl">Bem vindo ao portal de acesso</p>
+            <h3 class="text-primary text-2xl font-normal lg:text-4xl">Encontre aqui todos os serviços disponiveis</h3>            
+        </div>
+        <div class="w-[343px] mx-auto">
+            <ul class="flex flex-wrap border-2  rounded-md">
+                <li class="w-[168px] h-[106px] text-center hover:bg-darkPrimary">teste</li>
+                <li class="w-[168px] h-[106px]">teste</li>
+                <li class="w-[168px] h-[106px]">teste</li>
+                <li class="w-[168px] h-[106px]">teste</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

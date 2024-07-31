@@ -1,17 +1,17 @@
 export const menu = [
     {
         id: 1,
-        name: "Home",
+        name: "link-1",
         link: "#"
     },
     {
         id: 2,
-        name: "TI",
+        name: "link-2",
         link: "#"
     },
     {
         id: 3,
-        name: "SPDM",
+        name: "link-3",
         link: "#"
     },
     {
