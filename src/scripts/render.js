@@ -60,3 +60,33 @@ export const redirectSipat = () => {
         window.location.replace('http://www.google.com')
     })
 }
+
+export const renderServices = (arr) => {
+    const ul = document.querySelector('.list__service')
+    ul.innerHTML = ''
+
+    arr.forEach(item => {
+        const listItem = document.createElement('a')
+        const title = document.createElement('small')
+        listItem.classList.add('w-[168px]', 'h-[106px]', 'text-center', 'hover:bg-darkPrimary', 'cursor-pointer', 'rounded-md', 'hover:text-accet', 'flex', 'flex-col', 'items-center', 'justify-center', 'hover:ease-in', 'duration-200')
+
+        title.classList.add('mt-2', 'uppercase', 'text-s', 'font-work')
+
+        title.innerText = item.name
+        listItem.href = item.link
+        listItem.target = '_blank'        
+        listItem.id = item.id        
+        listItem.innerHTML = item.icon
+        
+        listItem.append(title)
+        
+        ul.appendChild(listItem)
+        
+        console.log(listItem)
+        
+
+    })
+}
+
+
+{/* <li class="w-[168px] h-[106px] text-center hover:bg-darkPrimary cursor-pointer rounded-md hover:text-white flex flex-col items-center justify-center hover:ease-in duration-200"><i class="fa-solid fa-user-doctor"></i></li> */}
