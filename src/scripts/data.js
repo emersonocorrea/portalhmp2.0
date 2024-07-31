@@ -30,7 +30,7 @@ export const menu = [
 export const services = [
     {
         id: 1,
-        name: "wireline",
+        name: "connect-w",
         img: "https://spdm-pedro.local.conectew.com.br/cas-hospitalonline/resources/theme/img/theme/conectew-logo.png",
         link: "https://spdm-pedro.local.conectew.com.br/cas-hospitalonline/login?service=https%3A%2F%2Fspdm-pedro.local.conectew.com.br%2Fconecte%2Fmodulos.jsf",
         description: "Connect W",
@@ -66,15 +66,15 @@ export const services = [
         img: "../src/assets/img/ec.jpg",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfD9Vy0mmoNcoNuxYduvgjOmgMZ9rpiaVRuDFoeHFGlXmLhFA/viewform",
         description: "OS para Engenharia Clínica",
-        icon: '<i class="fa-solid fa-user-doctor text-3xl text-secondary"></i>'
+        icon: '<i class="fa-solid fa-house-medical-circle-exclamation text-3xl text-secondary"></i>'
     },
     {
         id: 6,
-        name: "Ramal",
+        name: "Ramais",
         img: "../src/assets/img/ramais.png",
         link: "#",
         description: "Ramais",
-        icon: '<i class="fa-solid fa-user-doctor text-3xl text-secondary"></i>'
+        icon: '<i class="fa-solid fa-tty text-3xl text-secondary"></i>'
     },
     {
         id: 7,
@@ -82,7 +82,7 @@ export const services = [
         img: "../src/assets/img/LOGO_2024.png",
         link: "https://holerite.spdmpais.org.br/login.aspx",
         description: "Holerite e cursos",
-        icon: '<i class="fa-solid fa-user-doctor text-3xl text-secondary"></i>'
+        icon: '<i class="fa-solid fa-money-check-dollar text-3xl text-secondary"></i>'
     },
     {
         id: 8,
@@ -90,7 +90,7 @@ export const services = [
         img: "../src/assets/img/email.png",
         link: "https://webmail.spdm-pais.org.br/",
         description: "E-mail",
-        icon: '<i class="fa-solid fa-user-doctor text-3xl text-secondary"></i>'
+        icon: '<i class="fa-solid fa-envelope-open-text text-3xl text-secondary"></i>'
     },
     {
         id: 9,
@@ -98,7 +98,7 @@ export const services = [
         img: "../src/assets/img/epimed.png",
         link: "https://sso.epimedmonitor.com/Account/Login?returnUrl=monitor",
         description: "Epimed Monitor",
-        icon: '<i class="fa-solid fa-user-doctor text-3xl text-secondary"></i>'
+        icon: '<i class="fa-solid fa-infinity text-3xl text-secondary"></i>'
     },
     
 ]

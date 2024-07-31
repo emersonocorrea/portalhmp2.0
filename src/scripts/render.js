@@ -68,6 +68,7 @@ export const renderServices = (arr) => {
     arr.forEach(item => {
         const listItem = document.createElement('a')
         const title = document.createElement('small')
+        
         listItem.classList.add('w-[168px]', 'h-[106px]', 'text-center', 'hover:bg-darkPrimary', 'cursor-pointer', 'rounded-md', 'hover:text-accet', 'flex', 'flex-col', 'items-center', 'justify-center', 'hover:ease-in', 'duration-200')
 
         title.classList.add('mt-2', 'uppercase', 'text-s', 'font-work')
@@ -78,11 +79,10 @@ export const renderServices = (arr) => {
         listItem.id = item.id        
         listItem.innerHTML = item.icon
         
+        
         listItem.append(title)
         
-        ul.appendChild(listItem)
-        
-        console.log(listItem)
+        ul.appendChild(listItem)       
         
 
     })
