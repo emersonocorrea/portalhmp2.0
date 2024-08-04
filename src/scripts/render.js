@@ -54,12 +54,12 @@ export const menuOverlay = (arr) => {
     })
 }
 
-export const redirectSipat = () => {
-    const sipat = document.querySelector('.sipat')
-    sipat.addEventListener('click', () => {
-        window.location.replace('http://www.google.com')
-    })
-}
+// export const redirectSipat = () => {
+//     const sipat = document.querySelector('.sipat')
+//     sipat.addEventListener('click', () => {
+//         window.location.replace('http://www.google.com')
+//     })
+// }
 
 export const renderServices = (arr) => {
     const ul = document.querySelector('.list__service')
@@ -69,7 +69,7 @@ export const renderServices = (arr) => {
         const listItem = document.createElement('a')
         const title = document.createElement('small')
         
-        listItem.classList.add('w-[168px]', 'h-[106px]', 'text-center', 'hover:bg-darkPrimary', 'cursor-pointer', 'rounded-md', 'hover:text-accet', 'flex', 'flex-col', 'items-center', 'justify-center', 'hover:ease-in', 'duration-200')
+        listItem.classList.add('w-[160px]', 'h-[106px]', 'text-center', 'hover:bg-darkPrimary', 'cursor-pointer', 'rounded-md', 'hover:text-accet', 'flex', 'flex-col', 'items-center', 'justify-center', 'hover:ease-in', 'duration-200')
 
         title.classList.add('mt-2', 'uppercase', 'text-s', 'font-work')
 
@@ -88,5 +88,15 @@ export const renderServices = (arr) => {
     })
 }
 
+export const cssInputs = () => {
+    const inputs = document.querySelectorAll('.inputs')
+    const formBtn = document.querySelector('.formBtn')
+    formBtn.classList.add('bg-accet', 'p-2', 'text-darkPrimary', 'font-work', 'font-semibold', 'cursor-pointer', 'hover:bg-darkPrimary', 'hover:text-accet', 'ease-in', 'duration-200')
+    
+    inputs.forEach(input => {
+        input.classList.add('border-b-[1px]', 'font-work', 'p-2', 'border-accet', 'text-accet', 'focus:outline-none', 'resize-none', 'placeholder:text-accet', 'placeholder:text-sm', 'placeholder:font-light', 'placeholder:font-work')
+        
+    })
 
-{/* <li class="w-[168px] h-[106px] text-center hover:bg-darkPrimary cursor-pointer rounded-md hover:text-white flex flex-col items-center justify-center hover:ease-in duration-200"><i class="fa-solid fa-user-doctor"></i></li> */}
+    
+}
