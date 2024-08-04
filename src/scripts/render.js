@@ -45,7 +45,7 @@ export const menuOverlay = (arr) => {
 
     arr.forEach(item => {
         const menuItem = document.createElement('a')
-        menuItem.classList.add('text-white', 'font-normal', 'uppercase', 'text-s', 'hover:text-accet', 'font-work', 'hover:border-b', 'hover:border-b-accet', 'hover:ease-in', 'duration-200')
+        menuItem.classList.add('text-white', 'font-normal', 'uppercase', 'text-[8px]', 'lg:text-[12px]', 'hover:text-accet', 'font-work', 'hover:border-b', 'hover:border-b-accet', 'hover:ease-in', 'duration-200')
         menuItem.id = item.id
         menuItem.href = item.link
         menuItem.innerText = item.name
@@ -54,13 +54,8 @@ export const menuOverlay = (arr) => {
     })
 }
 
-// export const redirectSipat = () => {
-//     const sipat = document.querySelector('.sipat')
-//     sipat.addEventListener('click', () => {
-//         window.location.replace('http://www.google.com')
-//     })
-// }
 
+// renderiza a lista de serviços
 export const renderServices = (arr) => {
     const ul = document.querySelector('.list__service')
     ul.innerHTML = ''
@@ -88,6 +83,8 @@ export const renderServices = (arr) => {
     })
 }
 
+
+// aplica o css nos inputs do formulario
 export const cssInputs = () => {
     const inputs = document.querySelectorAll('.inputs')
     const formBtn = document.querySelector('.formBtn')

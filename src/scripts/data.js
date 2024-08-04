@@ -1,27 +1,27 @@
 export const menu = [
     {
         id: 1,
-        name: "link-1",
-        link: "#"
+        name: "Connect-W",
+        link: "https://spdm-pedro.local.conectew.com.br/cas-hospitalonline/login?service=https%3A%2F%2Fspdm-pedro.local.conectew.com.br%2Fconecte%2Fmodulos.jsf"
     },
     {
         id: 2,
-        name: "link-2",
-        link: "#"
+        name: "TS-enfermagem",
+        link: "https://spdm-pedro.ts.conectew.com.br/"
     },
     {
         id: 3,
-        name: "link-3",
-        link: "#"
+        name: "Prefeitura Rj",
+        link: "https://www.arcgis.com/apps/webappviewer/index.html?id=014d8ab512a34f259bb27c8a13d4d65f"
     },
     {
         id: 4,
-        name: "link-4",
-        link: "#"
+        name: "E-mail",
+        link: "https://webmail.spdm-pais.org.br/"
     },
     {
         id: 5,
-        name: "link-5",
+        name: "fale conosco",
         link: "#"
     },
 
