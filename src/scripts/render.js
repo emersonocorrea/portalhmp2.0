@@ -38,6 +38,7 @@ export const menuOverlay = (arr) => {
         menuItem.id = item.id
         menuItem.href = item.link
         menuItem.innerText = item.name
+        menuItem.target = "_blank"
 
         overlayContainer.append(menuItem)
         
@@ -49,6 +50,7 @@ export const menuOverlay = (arr) => {
         menuItem.id = item.id
         menuItem.href = item.link
         menuItem.innerText = item.name
+        menuItem.target = "_blank"
 
         menuDesk.append(menuItem)
     })
