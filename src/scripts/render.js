@@ -66,7 +66,7 @@ export const renderServices = (arr) => {
         const listItem = document.createElement('a')
         const title = document.createElement('small')
         
-        listItem.classList.add('w-[160px]', 'h-[106px]', 'text-center', 'hover:bg-darkPrimary', 'cursor-pointer', 'rounded-md', 'hover:text-accet', 'flex', 'flex-col', 'items-center', 'justify-center', 'hover:ease-in', 'duration-200')
+        listItem.classList.add('w-[162px]', 'h-[106px]', 'text-center', 'hover:bg-darkPrimary', 'cursor-pointer', 'rounded-md', 'hover:text-accet', 'flex', 'flex-col', 'items-center', 'justify-center', 'hover:ease-in', 'duration-200')
 
         title.classList.add('mt-2', 'uppercase', 'text-s', 'font-work')
 
