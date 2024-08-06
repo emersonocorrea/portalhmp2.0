@@ -11,7 +11,7 @@ export const menu = [
     },
     {
         id: 3,
-        name: "Prefeitura Rj",
+        name: "Onde ser atendido",
         link: "https://www.arcgis.com/apps/webappviewer/index.html?id=014d8ab512a34f259bb27c8a13d4d65f"
     },
     {
