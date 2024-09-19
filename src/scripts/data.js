@@ -100,5 +100,13 @@ export const services = [
         description: "Epimed Monitor",
         icon: '<i class="fa-solid fa-infinity text-3xl text-secondary"></i>'
     },
+    {
+        id: 10,
+        name: "TI",
+        img: "",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSeOcS9DA2Lfxio_mxp4wcb3auSrTUqc8_VJMMbsmf0mueB_nQ/viewform",
+        description: "Tecnologia da informação",
+        icon: '<i class="fa-solid fa-computer text-3xl text-secondary"></i>'
+    }
     
 ]
